@@ -1,0 +1,133 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/6/22 下午3:45:23
+使用方法：
+在 D:\GZ2121H5\wechat-booking\miniprogram\pages\booking\booking.wxml 引入模板
+
+```
+<import src="booking.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 D:\GZ2121H5\wechat-booking\miniprogram\pages\booking\booking.wxss 中引入样式
+```
+@import "./booking.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="booking">
+      <view class="booking-bg"></view>
+      <view class="booking-box">
+        <view class="booking-type-box">
+          <view>
+            <view class="type-box">
+              <view class="type-item active sk-transparent sk-text-26-6667-64 sk-text" style="background-position-x: 50%;">收入</view>
+              <view class="type-item sk-transparent sk-text-26-6667-967 sk-text" style="background-position-x: 50%;">支出</view>
+            </view>
+          </view>
+          <view class="type-icons">
+            <swiper class="swiper-box" current="0" autoplay="false">
+              <swiper-item style="position: absolute; width: 100%; height: 100%; transform: translate(0%, 0px) translateZ(0px);">
+                <view class="swiper-item">
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-6 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-899 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-625 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-171 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-254 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-925 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-598 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-656 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-948 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                  <view class="sw-item">
+                    <view class="sw-box">
+                      <view class="sw-icon"></view>
+                      <view class="sw-text sk-transparent sk-text-14-2857-966 sk-text" style="background-position-x: 50%;">餐饮</view>
+                    </view>
+                  </view>
+                </view>
+              </swiper-item>
+            </swiper>
+          </view>
+        </view>
+        <view class="select-account">
+          <view class="account-title sk-transparent sk-text-14-2857-927 sk-text" style="border: none;">账户选择</view>
+          <view class="ac-box">
+            <view class="ac-item xj sk-transparent sk-text-25-0000-884 sk-text" style="background-position-x: 50%;">现金</view>
+            <view class="ac-item zfb active sk-transparent sk-text-25-0000-464 sk-text" style="background-position-x: 50%;">支付宝</view>
+            <view class="ac-item wx sk-transparent sk-text-25-0000-447 sk-text" style="background-position-x: 50%;">微信</view>
+            <view class="ac-item cxk sk-transparent sk-text-25-0000-435 sk-text" style="background-position-x: 50%;">储蓄卡</view>
+            <view class="ac-item xyk sk-transparent sk-text-25-0000-678 sk-text" style="background-position-x: 50%;">信用卡</view>
+          </view>
+        </view>
+        <view class="booking-data">
+          <view class="booking-data-item">
+            <view class="booking-data-title sk-transparent sk-text-25-0000-719 sk-text">日期</view>
+            <view class="booking-data-info">
+              <view class="picker-box sk-transparent sk-text-25-0000-39 sk-text sk-image" end="2021-09-01" mode="date" start="2020-09-01">选择日期</view>
+            </view>
+          </view>
+          <view class="booking-data-item">
+            <view class="booking-data-title sk-transparent sk-text-25-0000-720 sk-text">金额</view>
+            <view class="booking-data-info">
+              <view class="weui-input sk-image" placeholder="输入金额" type="digit"></view>
+            </view>
+          </view>
+          <view class="booking-data-item">
+            <view class="booking-data-title sk-transparent sk-text-25-0000-252 sk-text">备注</view>
+            <view class="booking-data-info">
+              <view class="weui-input sk-image" placeholder="输入备注" type="text"></view>
+            </view>
+          </view>
+        </view>
+        <view class="save sk-transparent sk-text-32-5000-74 sk-text" style="background-position-x: 50%;">记一笔</view>
+      </view>
+    </view>
+  </view>
+</template>

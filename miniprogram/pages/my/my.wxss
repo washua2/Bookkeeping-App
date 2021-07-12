@@ -1,0 +1,49 @@
+@import "./my.skeleton.wxss";
+.my-bg{
+  height: 400rpx;
+  background-color: #FEDB5B;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-logo{
+  width: 160rpx;
+  height: 160rpx;
+  background-color: #e8e8e8;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 0 8rpx rgba(255, 255, 255, .45);
+  overflow: hidden;
+}
+
+.user-nickname{
+  text-align: center;
+  margin-top: 20rpx;
+}
+
+.my-list-item{
+  margin-bottom: 10rpx;
+}
+
+.auth-btn{
+  width: 280rpx;
+  height: 72rpx;
+  background-color: #f7ce3b;
+  text-align: center;
+  line-height: 72rpx;
+  border-radius: 10rpx;
+  font-size: 32rpx;
+}
+
+.auto-img{
+  width: 100%;
+  height: 100%;
+}
+
+/* .aa{
+  height: 160rpx;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, .3) 0rpx, rgba(0, 0, 0, .3) 40rpx, #e4339c 40rpx, #e4339c);
+  margin-top: 50rpx;
+} */

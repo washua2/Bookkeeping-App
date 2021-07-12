@@ -1,0 +1,61 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/6/24 下午4:54:03
+使用方法：
+在 D:\GZ2121H5\wechat-booking\miniprogram\pages\my\my.wxml 引入模板
+
+```
+<import src="my.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 D:\GZ2121H5\wechat-booking\miniprogram\pages\my\my.wxss 中引入样式
+```
+@import "./my.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view>
+      <view class="my-bg">
+        <view class="my-info">
+          <view class="user-logo"></view>
+          <view class="user-nickname sk-transparent sk-text-14-2857-950 sk-text" style="background-position-x: 50%;">用户昵称</view>
+        </view>
+      </view>
+      <view>
+        <view class="my-list-item">
+          <view is="components/list/list">
+            <view class="list--list">
+              <view class="sk-transparent sk-text-14-2857-811 sk-text">我的记账</view>
+              <view class="list--list-arrow">
+                <image class="list--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="my-list-item">
+          <view is="components/list/list">
+            <view class="list--list">
+              <view class="sk-transparent sk-text-14-2857-151 sk-text">疫情监控</view>
+              <view class="list--list-arrow">
+                <image class="list--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="my-list-item">
+          <view is="components/list/list">
+            <view class="list--list">
+              <view class="sk-transparent sk-text-14-2857-229 sk-text">天气预报</view>
+              <view class="list--list-arrow">
+                <image class="list--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

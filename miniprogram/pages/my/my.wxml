@@ -1,0 +1,27 @@
+<import src="my.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+<view clas="my" wx:else>
+
+  <view class="my-bg">
+
+    <view class="my-info" wx:if="{{isLogin}}">
+      <view class="user-logo">
+        <image class="auto-img" src="{{userInfo.userImg}}"></image>
+      </view>
+      <view class="user-nickname">{{userInfo.nickName}}</view>
+    </view>
+    <view wx:else>
+      <view class="auth-btn" bindtap="getUserInfo">微信一键登录</view>
+    </view>
+  
+  </view>
+
+  <view>
+  
+    <view class="my-list-item" bindtap="viewMyBooking">
+      <list title="我的记账"></list>
+    </view>
+
+  </view>
+
+</view>

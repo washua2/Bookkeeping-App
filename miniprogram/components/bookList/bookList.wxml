@@ -1,0 +1,39 @@
+<view class="book-list">
+  <view class="book-list-icon">
+    <image class="auto-img" src="{{booking.mainTypeData.icon}}"></image>
+  </view>
+  <view class="book-list-info">
+    <view class="book-info">
+      <view class="book-info-title">{{booking.mainTypeData.title}}</view>
+      <view class="book-info-account {{booking.accountData.type}}">{{booking.accountData.title}}</view>
+      <view class="book-info-date">{{booking.date}}</view>
+    </view>
+    <view class="book-comment" wx:if="{{booking.comment}}">{{booking.comment}}</view>
+  </view>
+  <view class="book-list-money {{booking.typeData.type}}">
+    <view>￥{{booking.money}}</view>
+    <view class="delete-box" wx:if="{{hasDelete}}" bindtap="removeBooking" data-_id="{{booking._id}}">
+      <image class="auto-img" src="../../images/delete.png"></image>
+    </view>
+  </view>
+</view>
+
+<!-- <view class="book-list">
+  <view class="book-list-icon"></view>
+  <view class="book-list-info">
+    <view class="book-info">
+      <view class="book-info-title">餐饮</view>
+      <view class="book-info-account">支付宝</view>
+      <view class="book-info-date">2021-06-24</view>
+    </view>
+    <view class="book-comment">备注信息</view>
+  </view>
+
+  <view class="book-list-money sr">
+    <view>￥200.36</view>
+    <view class="delete-box">
+      <image class="auto-img" src="../../images/delete.png"></image>
+    </view>
+  </view>
+  
+</view> -->

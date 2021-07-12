@@ -1,0 +1,76 @@
+<import src="booking.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+<view class="booking" wx:else>
+  <view class="booking-bg"></view>
+  <view class="booking-box">
+
+    <view class="booking-type-box">
+      <view>
+        <view class="type-box">
+          <view class="type-item {{activeIndex === index ? 'active' : ''}}" wx:for="{{typeData}}" wx:key="index" bindtap="toggle" data-index="{{index}}" data-key="activeIndex">{{item.title}}</view>
+        </view>
+      </view>
+
+      <view class="type-icons">
+        <swiper class="swiper-box" indicator-dots="{{true}}" indicator-active-color="#FEDB5B">
+          <block wx:for="{{allMainTypeData}}" wx:key="index">
+            <swiper-item>
+              <view class="swiper-item">
+
+                <view class="sw-item" wx:for="{{item.types}}" wx:for-item="v" wx:for-index="i" wx:key="i">
+                  <view class="sw-box" bindtap="toggleMainType" data-page="{{index}}" data-index="{{i}}">
+                    <view class="sw-icon">
+                      <image class="sw-img" src="{{v.icon}}"></image>
+                    </view>
+                    <view class="sw-text {{item.pageIndex === i ? 'active' : ''}}">{{v.title}}</view>
+                  </view>
+                </view>
+
+              </view>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+
+    </view>
+
+    <!-- 账户选择 -->
+    <view class="select-account">
+      <view class="account-title">账户选择</view>
+      <view class="ac-box">
+        <view class="ac-item {{item.type}} {{activeAccountIndex === index ? 'active' : ''}}" wx:for="{{accountData}}" wx:key="index" data-index="{{index}}" bindtap="toggle" data-key="activeAccountIndex">{{item.title}}</view>
+      </view>
+    </view>
+
+    <!-- 录入记账数据 -->
+    <view class="booking-data">
+
+      <view class="booking-data-item">
+        <view class="booking-data-title">日期</view>
+        <view class="booking-data-info">
+          <picker class="picker-box" bindchange="updateValue" data-key="date" mode="date" start="{{startDate}}" end="{{endDate}}">{{date}}</picker>
+        </view>
+      </view>
+
+      <view class="booking-data-item">
+        <view class="booking-data-title">金额</view>
+        <view class="booking-data-info">
+          <input class="weui-input" type="digit" bindchange="updateValue" value="{{money}}" data-key="money" placeholder="输入金额"/>
+        </view>
+      </view>
+
+      <view class="booking-data-item">
+        <view class="booking-data-title">备注</view>
+        <view class="booking-data-info">
+          <input class="weui-input" type="text" bindchange="updateValue" value="{{comment}}" data-key="comment" placeholder="输入备注"/>
+        </view>
+      </view>
+
+    </view>
+
+    <view class="save" bindtap="save">记一笔</view>
+
+
+
+  </view>
+</view>

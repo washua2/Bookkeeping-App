@@ -1,0 +1,4 @@
+@import "./detail.skeleton.wxss";
+.detail-item{
+  margin-bottom: 10rpx;
+}

@@ -1,0 +1,105 @@
+@import "./home.skeleton.wxss";
+.home-month{
+  background-color: #FEDB5B;
+  padding: 80rpx 20rpx;
+}
+
+.jieyu-box{
+  display: flex;
+  justify-content: center;
+}
+
+.jieyu{
+  text-align: center;
+}
+
+.jieyu-title{
+  margin-bottom: 10rpx;
+  font-size: 32rpx;
+}
+
+.jieyu-money{
+  font-weight: bold;
+  font-size: 48rpx;
+}
+
+.jieyu-decimal{
+  font-size: 32rpx;
+}
+
+.sr-zc{
+  margin-top: 100rpx;
+  display: flex;
+}
+
+.sr-zc-item{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.sr-tem{
+  text-align: center;
+}
+
+.home-money{
+  font-weight: bold;
+  font-size: 38rpx;
+}
+
+.home-decimal{
+  font-size: 28rpx;
+}
+
+.home-info{
+  height: 80rpx;
+  background-color: #fff;
+  padding: 0 20rpx;
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+}
+
+.home-date{
+  color: #666;
+  margin-right: 10rpx;
+}
+
+.point-box{
+  margin-left: auto;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-info-item{
+  display: flex;
+}
+
+.home-sr{
+  color: #D13B2E;
+  margin-right: 10rpx;
+}
+
+.home-zc{
+  color: #249D62;
+}
+
+.point-item{
+  width: 8rpx;
+  height: 8rpx;
+  border-radius: 50%;
+  background-color: #999;
+  margin: 0 4rpx;
+}
+
+.picker-box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+
+.book-list-item{
+  margin-bottom: 10rpx;
+}

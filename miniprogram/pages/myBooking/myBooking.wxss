@@ -1,0 +1,4 @@
+@import "./myBooking.skeleton.wxss";
+.mybooking-list-item{
+  margin-bottom: 10rpx;
+}

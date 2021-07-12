@@ -1,0 +1,105 @@
+.book-list{
+  padding: 20rpx;
+  background-color: #fff;
+  
+}
+
+.book-list{
+  display: flex;
+  align-items: center;
+}
+
+.book-list-icon{
+  width: 80rpx;
+  height: 80rpx;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20rpx;
+}
+
+
+.book-list-money{
+  margin-left: auto;
+  font-weight: bold;
+  display: flex;
+}
+
+.book-list-money.sr{
+  color: #D13B2E;
+}
+
+.book-list-money.zc{
+  color: #249D62;
+}
+
+.book-info{
+  display: flex;
+  align-items: center;
+}
+
+.book-info-title{
+  margin-right: 20rpx;
+}
+
+.book-info-account{
+  font-size: 20rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  width: 100rpx;
+  text-align: center;
+  border-radius: 20rpx;
+  margin-right: 20rpx;
+}
+
+.book-info-date{
+  font-size: 24rpx;
+  color: #666;
+}
+
+.book-comment{
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 5rpx;
+}
+
+.auto-img{
+  width: 100%;
+  height: 100%;
+}
+
+.book-info-account.xj{
+  background-color: #D13B2E;
+  color: #fff;
+}
+
+.book-info-account.zfb{
+  background-color: #0886EA;
+  color: #fff;
+}
+
+.book-info-account.wx{
+  background-color: #249D62;
+  color: #fff;
+}
+
+.book-info-account.cxk{
+  background-color: #5C49CE;
+  color: #fff;
+}
+
+.book-info-account.xyk{
+  background-color: #FABF15;
+  color: #fff;
+}
+
+.delete-box{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+
+.auto-img{
+  width: 100%;
+  height: 100%;
+}

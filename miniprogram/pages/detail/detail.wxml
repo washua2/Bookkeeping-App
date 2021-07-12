@@ -1,0 +1,9 @@
+<import src="detail.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+<view wx:else>
+
+  <view class="detail-item" wx:for="{{bookingData}}" wx:key="index">
+    <book-list booking="{{item}}"></book-list>
+  </view>
+
+</view>

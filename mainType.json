@@ -1,0 +1,52 @@
+    {
+        "title": "餐饮",
+        "type": "canying",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a1.png"
+    }
+
+    {
+        "title": "购物",
+        "type": "gouwu",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a2.png"
+    }
+    {
+        "title": "旅游",
+        "type": "lvyou",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a3.png"
+    }
+    {
+        "title": "健康",
+        "type": "jiankang",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a4.png"
+    }
+    {
+        "title": "娱乐",
+        "type": "yuele",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a5.png"
+    }
+    {
+        "title": "住房",
+        "type": "zhufang",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a6.png"
+    }
+    {
+        "title": "人情",
+        "type": "renqing",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a7.png"
+    }
+    {
+        "title": "交通",
+        "type": "jiaotong",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a8.png"
+    }
+    {
+        "title": "学习",
+        "type": "xuexi",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a9.png"
+    }
+    {
+        "title": "其他",
+        "type": "qita",
+        "icon": "cloud://cloud1-2gvx3fhmd22e1c0d.636c-cloud1-2gvx3fhmd22e1c0d-1306510574/a10.png"
+    }
+

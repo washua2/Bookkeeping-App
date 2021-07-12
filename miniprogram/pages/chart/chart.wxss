@@ -1,0 +1,78 @@
+@import "./chart.skeleton.wxss";
+.chart-nav{
+  height: 60rpx;
+  padding: 20rpx;
+  background-color: #FEDB5B;
+  display: flex;
+  align-items: center;
+}
+
+.chart-btns{
+  margin-left: auto;
+  display: flex;
+}
+
+.chart-btn{
+  width: 60rpx;
+  height: 60rpx;
+  background-color: #000000;
+  text-align: center;
+  line-height: 60rpx;
+  color: #FEDB5B;
+  border-right: 1rpx solid #FEDB5B;
+}
+
+.chart-btn:last-child{
+  border-right: 0;
+}
+
+.chart-btn.active{
+  background-color: #F7CE3E;
+  color: #000000;
+}
+
+.chart-nav-date{
+  flex: 1;
+  margin-right: 20rpx;
+  background-color: #fff;
+  height: 100%;
+  border-radius: 30rpx;
+  padding: 0 30rpx;
+  line-height: 60rpx;
+}
+
+.chart-type{
+  display: flex;
+  padding: 20rpx;
+  background-color: #fff;
+}
+
+.chart-type-item{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.chart-type-item.sr.active{
+  color: #D13B2E;
+}
+
+.chart-type-item.zc.active{
+  color: #249D62;
+}
+
+.chart-pie{
+  height: 700rpx;
+  background-color: #fff;
+  margin-top: 10rpx;
+}
+
+.c-list{
+  margin-top: 10rpx;
+}
+
+.c-list-item{
+  margin-bottom: 10rpx;
+}

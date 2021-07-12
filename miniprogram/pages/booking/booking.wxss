@@ -1,0 +1,184 @@
+.booking-bg{
+  height: 180rpx;
+  background-color: #FEDB5B;
+}
+
+.booking-box{
+  margin: 0 20rpx;
+  position: relative;
+  top: -100rpx;
+}
+
+.booking-type-box{
+  background-color: #fff;
+  border-radius: 20rpx;
+  padding: 20rpx;
+}
+
+.type-box{
+  width: 240rpx;
+  height: 60rpx;
+  background-color: #e8e8e8;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 30rpx;
+  overflow: hidden;
+}
+
+.type-item{
+  flex: 1;
+  text-align: center;
+  line-height: 60rpx;
+}
+
+.type-item.active{
+  background-color: #FEDB5B;
+}
+
+.type-icons{
+  margin-top: 40rpx;
+}
+
+.swiper-item{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@import "./booking.skeleton.wxss";
+.sw-item{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20rpx;
+}
+
+.sw-icon{
+  width: 80rpx;
+  height: 80rpx;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.sw-text{
+  text-align: center;
+  margin-top: 5rpx;
+}
+
+.sw-text.active{
+  color: #FEDB5B;
+}
+
+.swiper-box{
+  height: 320rpx;
+}
+
+.select-account{
+  margin-top: 20rpx;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  background-color: #fff;
+}
+
+.account-title{
+  border-bottom: 1rpx solid #f0f0f0;
+  padding-bottom: 20rpx;
+}
+
+.ac-box{
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.ac-item{
+  flex: 1;
+  text-align: center;
+  line-height: 48rpx;
+  height: 48rpx;
+  background-color: #e8e8e8;
+  margin-right: 20rpx;
+  border-radius: 24rpx;
+  font-size: 24rpx;
+  color: #666;
+}
+
+.ac-item:last-child{
+  margin-right: 0;
+}
+
+.ac-item.xj.active{
+  background-color: #D13B2E;
+  color: #fff;
+}
+
+.ac-item.zfb.active{
+  background-color: #0886EA;
+  color: #fff;
+}
+
+.ac-item.wx.active{
+  background-color: #249D62;
+  color: #fff;
+}
+
+.ac-item.cxk.active{
+  background-color: #5C49CE;
+  color: #fff;
+}
+
+.ac-item.xyk.active{
+  background-color: #FABF15;
+  color: #fff;
+}
+
+.booking-data{
+  margin-top: 20rpx;
+  padding: 20rpx;
+  border-radius: 20rpx;
+  background-color: #fff;
+}
+
+.booking-data-item{
+  display: flex;
+  margin-bottom: 10rpx;
+}
+
+.booking-data-item:last-child{
+  margin-bottom: 0;
+}
+
+.booking-data-title{
+  width: 120rpx;
+  height: 56rpx;
+  line-height: 56rpx;
+}
+
+.booking-data-info{
+  flex: 1;
+}
+
+.picker-box{
+  height: 100%;
+  line-height: 56rpx;
+}
+
+.weui-input{
+  height: 100%;
+  line-height: 56rpx;
+}
+
+.save{
+  margin-top: 80rpx;
+  background-color: #FEDB5B;
+  text-align: center;
+  line-height: 80rpx;
+  height: 80rpx;
+  border-radius: 40rpx;
+}
+
+.sw-img{
+  width: 100%;
+  height: 100%;
+}

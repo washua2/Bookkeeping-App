@@ -1,0 +1,6 @@
+<view class="list">
+  <view>{{title}}</view>
+  <view class="list-arrow">
+    <image class="auto-img" src="../../images/right-arrow.png"></image>
+  </view>
+</view>

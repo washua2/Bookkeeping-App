@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "图表",
+  "usingComponents": {
+    "chart-list": "../../components/chartList/chartList",
+    "ec-canvas": "../../components/ec-canvas/ec-canvas"
+  }
+}

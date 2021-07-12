@@ -1,0 +1,66 @@
+<import src="home.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+<view class="home">
+  <view class="home-month">
+
+    <view class="jieyu-box">
+       <view class="jieyu">
+        <view class="jieyu-title">本月结余</view>
+        <view class="jieyu-money">
+          <text>￥{{monthBooking.surplus.int}}.</text>
+          <text class="jieyu-decimal">{{monthBooking.surplus.decimal}}</text>
+        </view>
+      </view>
+    </view>
+
+    <view class="sr-zc">
+      <view class="sr-zc-item">
+        <view class="sr-tem">
+          <view class="jieyu-title">本月收入</view>
+          <view class="home-money">
+            <text>￥{{monthBooking.sr.int}}.</text>
+            <text class="home-decimal">{{monthBooking.sr.decimal}}</text>
+          </view>
+        </view>
+      </view>
+
+      <view class="sr-zc-item">
+        <view class="sr-tem">
+          <view class="jieyu-title">本月支出</view>
+          <view class="home-money">
+            <text>￥{{monthBooking.zc.int}}.</text>
+            <text class="home-decimal">{{monthBooking.zc.decimal}}</text>
+          </view>
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+  <view>
+    <view class="home-info">
+      <view class="home-info-item">
+        <view class="home-date">{{date}}</view>
+        <view class="home-date">{{currentBooking.length}}笔</view>
+        <view class="home-sr">收入：{{currentDateMoney.sr}}</view>
+        <view class="home-zc">支出：{{currentDateMoney.zc}}</view>
+      </view>
+      <view class="point-box">
+        <view class="point-item"></view>
+        <view class="point-item"></view>
+        <view class="point-item"></view>
+        <picker class="picker-box" bindchange="toggleDate" mode="date" start="{{startDate}}" end="{{endDate}}">选择日期</picker>
+      </view>
+    </view>
+
+    <view class="book-list-box">
+    
+      <view class="book-list-item" wx:for="{{currentBooking}}" wx:key="index" >
+        <book-list booking="{{item}}"></book-list>
+      </view>
+
+    </view>
+    <view class="not-data" wx:if="{{currentBooking.length === 0}}">{{selectDate}}没有记账数据!</view>
+
+  </view>
+</view>

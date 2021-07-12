@@ -1,0 +1,39 @@
+<view class="chart-list">
+  <view class="chart-list-icon">
+    <image class="auto-img" src="{{data.icon}}"></image>
+  </view>
+  <view class="chart-list-box">
+    <view class="chart-list-item">
+      <view class="chart-list-title">{{data.title}}</view>
+      <view class="chart-list-money {{data.key}}">￥{{data.money}}</view>
+    </view>
+    <view class="chart-list-item">
+      <view class="chart-progress">
+        <view class="chart-active-progress" style="width: {{data.percent}}; background-color: {{data.color}};"></view>
+      </view>
+      <view class="chart-count">{{data.count}}笔</view>
+    </view>
+  </view>
+  <view class="chart-list-arrow">
+    <image class="auto-img" src="../../images/right-arrow.png"></image>
+  </view>
+</view>
+
+<!-- <view class="chart-list">
+  <view class="chart-list-icon"></view>
+  <view class="chart-list-box">
+    <view class="chart-list-item">
+      <view class="chart-list-title">餐饮</view>
+      <view class="chart-list-money sr">￥200.36</view>
+    </view>
+    <view class="chart-list-item">
+      <view class="chart-progress">
+        <view class="chart-active-progress"></view>
+      </view>
+      <view class="chart-count">2笔</view>
+    </view>
+  </view>
+  <view class="chart-list-arrow">
+    <image class="auto-img" src="../../images/right-arrow.png"></image>
+  </view>
+</view> -->

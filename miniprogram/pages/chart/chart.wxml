@@ -1,0 +1,43 @@
+<import src="chart.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" />
+<view class="chart" wx:else>
+  <view class="chart-nav">
+    <view class="chart-nav-date">
+      <picker mode="date" start="{{startDate}}" end="{{endDate}}" bindchange="selectDate">{{date}}</picker>
+    </view>
+    <view class="chart-btns">
+      <view class="chart-btn {{activeDateTypeIndex === index ? 'active' : ''}}" wx:for="{{dateType}}" wx:key="key" data-index="{{index}}" bindtap="toggleDateType" data-key="activeDateTypeIndex">{{item.title}}</view>
+    </view>
+  </view>
+
+  <view>
+
+    <view class="chart-type">
+
+      <view class="chart-type-item {{item.type}} {{activeTypeDataIndex === index ? 'active' : ''}}" wx:for="{{typeData}}" wx:key="index" data-index="{{index}}" data-key="activeTypeDataIndex" bindtap="toggleType">
+        <view>
+          <view>{{dateType[activeDateTypeIndex].title}}{{item.title}}</view>
+          <view>￥{{item.money}}</view>
+        </view>
+      </view>
+      
+    </view>
+
+    <!-- 饼图 -->
+    <view class="chart-pie">
+      <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ec}}"></ec-canvas>
+    </view>
+
+    <!-- 记账类型列表 -->
+    <view class="c-list">
+
+      <view bindtap="viewBookingDetail" data-ids="{{item.ids}}" class="c-list-item" wx:for="{{bookingResult[typeData[activeTypeDataIndex].type]}}" wx:key="index">
+        <chart-list data="{{item}}"></chart-list>
+      </view>
+
+    </view>
+    <view class="not-data" wx:if="{{bookingResult[typeData[activeTypeDataIndex].type].length === 0}}">没有记账数据！</view>
+
+  </view>
+
+</view>

@@ -1,0 +1,170 @@
+<!--
+此文件为开发者工具生成，生成时间: 2021/6/29 上午9:19:22
+使用方法：
+在 E:\GZ2121H5\wechat-booking\miniprogram\pages\detail\detail.wxml 引入模板
+
+```
+<import src="detail.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 E:\GZ2121H5\wechat-booking\miniprogram\pages\detail\detail.wxss 中引入样式
+```
+@import "./detail.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view>
+      <view class="detail-item">
+        <view is="components/bookList/bookList">
+          <view class="bookList--book-list">
+            <view class="bookList--book-list-icon"></view>
+            <view class="bookList--book-list-info">
+              <view class="bookList--book-info">
+                <view class="bookList--book-info-title sk-transparent sk-text-14-2857-632 sk-text">餐饮</view>
+                <view class="bookList--book-info-account sk-transparent sk-text-25-0000-550 sk-text" style="background-position-x: 50%;">支付宝</view>
+                <view class="bookList--book-info-date sk-transparent sk-text-14-2857-526 sk-text">2021-06-24</view>
+              </view>
+              <view class="bookList--book-comment sk-transparent sk-text-14-2857-556 sk-text">备注信息</view>
+            </view>
+            <view class="bookList--book-list-money bookList--sr">
+              <view class="sk-transparent sk-text-14-2857-639 sk-text">￥200.36</view>
+              <view class="bookList--delete-box">
+                <image class="bookList--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="detail-item">
+        <view is="components/bookList/bookList">
+          <view class="bookList--book-list">
+            <view class="bookList--book-list-icon"></view>
+            <view class="bookList--book-list-info">
+              <view class="bookList--book-info">
+                <view class="bookList--book-info-title sk-transparent sk-text-14-2857-675 sk-text">餐饮</view>
+                <view class="bookList--book-info-account sk-transparent sk-text-25-0000-254 sk-text" style="background-position-x: 50%;">支付宝</view>
+                <view class="bookList--book-info-date sk-transparent sk-text-14-2857-940 sk-text">2021-06-24</view>
+              </view>
+              <view class="bookList--book-comment sk-transparent sk-text-14-2857-146 sk-text">备注信息</view>
+            </view>
+            <view class="bookList--book-list-money bookList--sr">
+              <view class="sk-transparent sk-text-14-2857-894 sk-text">￥200.36</view>
+              <view class="bookList--delete-box">
+                <image class="bookList--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="detail-item">
+        <view is="components/bookList/bookList">
+          <view class="bookList--book-list">
+            <view class="bookList--book-list-icon"></view>
+            <view class="bookList--book-list-info">
+              <view class="bookList--book-info">
+                <view class="bookList--book-info-title sk-transparent sk-text-14-2857-958 sk-text">餐饮</view>
+                <view class="bookList--book-info-account sk-transparent sk-text-25-0000-823 sk-text" style="background-position-x: 50%;">支付宝</view>
+                <view class="bookList--book-info-date sk-transparent sk-text-14-2857-994 sk-text">2021-06-24</view>
+              </view>
+              <view class="bookList--book-comment sk-transparent sk-text-14-2857-939 sk-text">备注信息</view>
+            </view>
+            <view class="bookList--book-list-money bookList--sr">
+              <view class="sk-transparent sk-text-14-2857-607 sk-text">￥200.36</view>
+              <view class="bookList--delete-box">
+                <image class="bookList--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="detail-item">
+        <view is="components/bookList/bookList">
+          <view class="bookList--book-list">
+            <view class="bookList--book-list-icon"></view>
+            <view class="bookList--book-list-info">
+              <view class="bookList--book-info">
+                <view class="bookList--book-info-title sk-transparent sk-text-14-2857-463 sk-text">餐饮</view>
+                <view class="bookList--book-info-account sk-transparent sk-text-25-0000-399 sk-text" style="background-position-x: 50%;">支付宝</view>
+                <view class="bookList--book-info-date sk-transparent sk-text-14-2857-978 sk-text">2021-06-24</view>
+              </view>
+              <view class="bookList--book-comment sk-transparent sk-text-14-2857-902 sk-text">备注信息</view>
+            </view>
+            <view class="bookList--book-list-money bookList--sr">
+              <view class="sk-transparent sk-text-14-2857-688 sk-text">￥200.36</view>
+              <view class="bookList--delete-box">
+                <image class="bookList--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="detail-item">
+        <view is="components/bookList/bookList">
+          <view class="bookList--book-list">
+            <view class="bookList--book-list-icon"></view>
+            <view class="bookList--book-list-info">
+              <view class="bookList--book-info">
+                <view class="bookList--book-info-title sk-transparent sk-text-14-2857-509 sk-text">餐饮</view>
+                <view class="bookList--book-info-account sk-transparent sk-text-25-0000-615 sk-text" style="background-position-x: 50%;">支付宝</view>
+                <view class="bookList--book-info-date sk-transparent sk-text-14-2857-361 sk-text">2021-06-24</view>
+              </view>
+              <view class="bookList--book-comment sk-transparent sk-text-14-2857-660 sk-text">备注信息</view>
+            </view>
+            <view class="bookList--book-list-money bookList--sr">
+              <view class="sk-transparent sk-text-14-2857-50 sk-text">￥200.36</view>
+              <view class="bookList--delete-box">
+                <image class="bookList--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="detail-item">
+        <view is="components/bookList/bookList">
+          <view class="bookList--book-list">
+            <view class="bookList--book-list-icon"></view>
+            <view class="bookList--book-list-info">
+              <view class="bookList--book-info">
+                <view class="bookList--book-info-title sk-transparent sk-text-14-2857-685 sk-text">餐饮</view>
+                <view class="bookList--book-info-account sk-transparent sk-text-25-0000-555 sk-text" style="background-position-x: 50%;">支付宝</view>
+                <view class="bookList--book-info-date sk-transparent sk-text-14-2857-33 sk-text">2021-06-24</view>
+              </view>
+              <view class="bookList--book-comment sk-transparent sk-text-14-2857-265 sk-text">备注信息</view>
+            </view>
+            <view class="bookList--book-list-money bookList--sr">
+              <view class="sk-transparent sk-text-14-2857-523 sk-text">￥200.36</view>
+              <view class="bookList--delete-box">
+                <image class="bookList--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="detail-item">
+        <view is="components/bookList/bookList">
+          <view class="bookList--book-list">
+            <view class="bookList--book-list-icon"></view>
+            <view class="bookList--book-list-info">
+              <view class="bookList--book-info">
+                <view class="bookList--book-info-title sk-transparent sk-text-14-2857-481 sk-text">餐饮</view>
+                <view class="bookList--book-info-account sk-transparent sk-text-25-0000-764 sk-text" style="background-position-x: 50%;">支付宝</view>
+                <view class="bookList--book-info-date sk-transparent sk-text-14-2857-610 sk-text">2021-06-24</view>
+              </view>
+              <view class="bookList--book-comment sk-transparent sk-text-14-2857-847 sk-text">备注信息</view>
+            </view>
+            <view class="bookList--book-list-money bookList--sr">
+              <view class="sk-transparent sk-text-14-2857-322 sk-text">￥200.36</view>
+              <view class="bookList--delete-box">
+                <image class="bookList--auto-img sk-image"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

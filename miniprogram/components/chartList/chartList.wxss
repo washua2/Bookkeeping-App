@@ -1,0 +1,76 @@
+.chart-list{
+  background-color: #fff;
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+
+.chart-list-icon{
+  width: 80rpx;
+  height: 80rpx;
+  background-color: #e8e8e8;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10rpx;
+}
+
+.chart-list-arrow{
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: auto;
+}
+
+.chart-list-box{
+  flex: 1;
+  margin-right: 20rpx; 
+}
+
+.chart-list-item{
+  height: 40rpx;
+  display: flex;
+  align-items: center;
+}
+
+.chart-list-title{
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.chart-list-money{
+  font-weight: bold;
+}
+
+.chart-list-money.sr{
+  color: #D13B2E;
+}
+
+.chart-list-money.zc{
+  color: #249D62;
+}
+
+.chart-progress{
+  flex: 1;
+  margin-right: auto;
+  height: 20rpx;
+  background-color: #f0f0f0;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+
+.chart-count{
+  width: 80rpx;
+  font-size: 24rpx;
+  color: #999;
+  text-align: right;
+}
+
+.chart-active-progress{
+  width: 0;
+  height: 100%;
+  transition: width .3s linear, background-color .3s linear;
+}
+
+.auto-img{
+  width: 100%;
+  height: 100%;
+}

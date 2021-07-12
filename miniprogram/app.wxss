@@ -1,0 +1,14 @@
+/* 全局样式 */
+/* page等价于html的body */
+page{
+  background-color: #f7f7f7;
+  font-size: 28rpx;
+  color: #444;
+}
+
+.not-data{
+  color: #999;
+  font-size: 24rpx;
+  text-align: center;
+  margin-top: 80rpx;
+}
